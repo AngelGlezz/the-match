@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/page.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<link  rel = "stylesheet"  href = "js/jquery.fancybox-thumbs.css?v=1.0.7"  type = "text/css"  media = "screen"  /> 
+		<script  type = "text/javascript"  src = "js/jquery.fancybox-thumbs.js?v=1.0.7" ></script>
+		<script type="text/javascript" src="js/page.js"></script>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<style>
+			html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+				background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+				border: 0 none;
+				font-size: 100%;
+				margin: 0;
+				outline: 0 none;
+				padding: 0;
+				vertical-align: baseline;
+				width: auto;
+			}  
+		</style>
+	</head>
+	<body>
+			<div class="page">
+				<div class="top_bar">
+					<div class="logo_tb"><a href="#cover"><img src="images/icon-logo.png"></a></div>	
+					<div class="item_main"><a href="#sponsors">PATROCINADORES</a></div>
+					<div class="item_main"><a href="#perfiles">PERFILES</a></div>
+					<div class="item_main"><a href="#tickets">TICKETS</a></div>
+					<div class="item_main"><a href="#cover">HOME</a></div>
+				</div>
+				<div class="topnav">
+					<a href="#home" class="active"><img src="images/icon-logo.png"></a>
+					<!-- Navigation links (hidden by default) -->
+					<div id="myLinks">
+						<a href="#cover">HOME</a>
+						<a href="#tickets">TICKETS</a>
+						<a href="#perfiles">PERFILES</a>
+						<a href="#sponsors">PATROCINADORES</a>
+					</div>
+					<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+				</div>
+				<div id="cover" class="section"></div>
+				<div class="section" id="description">
+					<div class="text hidden" id="juego_txt">
+						La Plaza México será testigo de un encuentro generacional excepcional. Experiencia contra juventud. <b>Roger Federer debutará en México,</b> enfrentando a Alexander Zverev. <b>El 23 de noviembre 41 mil almas vibrarán en The Greatest Match</b> con un emocionante partido de exhibición que pasará a la historia. ¡Sé parte de ello!
+						<br><br><p id="nota">*La marca actual es de 35,681 en un juego donde Kim Clijsters derrotó a Serena Williams en el Rey Balduino en Bruselas, Bélgica, en julio de 2010.</p>
+					</div>
+				</div>
+				<div id="separador">
+					<div id="video-back" class="hidden">
+						<div id="video-cont" class="hidden"><div class="hidden" itemscope itemtype="https://schema.org/VideoObject"><meta itemprop="uploadDate" content="Wed Sep 25 2019 17:52:36 GMT-0500 (hora de verano central)"/><meta itemprop="name" content="Saludo-federer"/><meta itemprop="duration" content="P0D" /><meta itemprop="thumbnailUrl" content="https://content.jwplatform.com/thumbs/Jl8mjyun-1920.jpg"/><meta itemprop="contentUrl" content="https://content.jwplatform.com/videos/Jl8mjyun-AneY9PEn.mp4"/><script src="https://cdn.jwplayer.com/players/Jl8mjyun-RgkloVhX.js"></script></div></div>
+					</div>
+				</div>
+				<div id="time" class="section">
+					<div class="title-section hidden">
+						<p>COUNTDOWN PARA<br>VENTA DE BOLETOS</p>
+					</div>
+					<div class="flipper hidden" data-reverse="true" data-datetime="2019-10-01 10:00:00" data-template="dd|HH|ii|ss" data-labels="Días|Horas|Minutos|Segundos" id="myFlipper"></div>
+				</div>
+				<div id="tickets" class="section">
+					<div class="title-section hidden">
+						<p>TICKETS</p>
+						<div class="line-title"></div>
+					</div>
+					<div id="subtitle-section" class="hidden"><img src="images/1deOCtubre.png"></div>
+					<div id="txt-tickets" class="hidden">SÉ EL PRIMERO EN CONOCER LOS DETALLES DE LA VENTA DE BOLETOS.<br>Regístrate para obtener noticias de "The Greatest Match México"</div>
+					<div id="content-form" class="hidden">
+						<form id="form-match" action="" method="post">
+							<div class="content-input">
+								<div class="item-input">
+									<input type="text" name="name">
+									<label>NOMBRE</label>
+								</div>
+								<div class="item-input">
+									<input type="text" name="lastname">
+									<label>APELLIDO</label>
+								</div>
+							</div>
+							<div class="content-input">
+								<div class="item-input">
+									<input type="text" name="city">
+									<label>CIUDAD</label>
+								</div>
+								<div class="item-input">
+									<input type="text" name="mail">
+									<label>E-MAIL</label>
+								</div>
+							</div>
+							<div class="separador"></div>
+							<div id="content-term">
+								<label><input type="checkbox" id="cbox" value="acept">ACEPTO LOS TÉRMINOS Y CONDICIONES</label>
+							</div>
+							<div id="send-form" class="button">ENVIAR</div>
+						</form>
+					</div>
+					<div id="table-price" class="hidden"><img src="images/precios.png"></div>
+					<div class="button hidden">
+						<a class="show" href="images/mapa.jpg">VER MAPA</a>
+					</div>
+					<div id="prensa" class="hidden">
+						<div id="txt-prensa">¿QUIERES ACREDITARTE COMO PRENSA?</div>
+						<div class="button" id="button-prensa"><a href="http://wmedia.com.mx/formas/view.php?id=24939" target="_blank">CLICK AQUÍ</a></div>
+					</div>
+					<div class="title-section hidden" id="perfiles">
+						<p>PERFILES</p>
+						<div class="line-title hidden"></div>
+					</div>
+					<div id="profile-cont">
+						<div class="item-profile hidden">
+							<a class="show-profile card-desk" rel="lb_info" href="images/Federer-card.jpg"><img class="pic-profile" src="images/perfil-federer.png"></a>
+							<a class="show-profile card-mov" rel="lb_info-mov" href="images/Federer-card-movil.jpg"><img class="pic-profile" src="images/perfil-federer.png"></a>
+						</div>
+						<div class="item-profile hidden">
+							<a class="show-profile card-desk" rel="lb_info" href="images/Alexander-card.jpg"><img class="pic-profile" src="images/perfil-zverev.png"></a>
+							<a class="show-profile card-mov" rel="lb_info-mov" href="images/Alexander-card-movil.jpg"><img class="pic-profile" src="images/perfil-zverev.png"></a>
+						</div>
+						<div class="item-profile hidden">
+							<a class="show-profile card-desk" rel="lb_info" href="images/Santiago-card.jpg"><img class="pic-profile" src="images/perfil-santi.png"></a>
+							<a class="show-profile card-mov" rel="lb_info-mov" href="images/Santiago-card-movil.jpg"><img class="pic-profile" src="images/perfil-santi.png"></a>
+						</div>
+						<div class="item-profile hidden">
+							<a class="show-profile card-desk" rel="lb_info" href="images/Mike-card.jpg"><img class="pic-profile" src="images/perfil-bryan.png"></a>
+							<a class="show-profile card-mov" rel="lb_info-mov" href="images/Mike-card-movil.jpg"><img class="pic-profile" src="images/perfil-bryan.png"></a>
+						</div>
+					</div>
+				</div>
+				<div id="sponsors"></div>
+				<div id="footer-page">
+					<div id="content-item-footer">
+						<div class="item-footer"><a href="https://twitter.com/mextenis" target="_blank"><img class="img-footer" src="images/twitter.png"></a></div>
+						<div class="item-footer"><a href="https://www.instagram.com/mextenis/" target="_blank"><img class="img-footer" src="images/insta.png"></a></div>
+						<div class="item-footer"><a href="https://www.facebook.com/MextenisOficial/" target="_blank"><img class="img-footer" src="images/face.png"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.flipper-responsive.js"></script>
+		<script>
+		  	/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+			    x.style.display = "none";
+			  } else {
+			    x.style.display = "block";
+			  }
+			}
+
+
+		  jQuery(function ($) {
+			  $('#myFlipper').flipper('init');
+			});
+		</script>	
+	</body>
+</html>
