@@ -608,6 +608,10 @@ a {
 	opacity: 0.8;
 }
 
+.fancybox-next span {
+	right: 0px!important;
+}
+
 @media screen and (max-width: 1130px) {
 	#cover {
 		background-size: 165%;
