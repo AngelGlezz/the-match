@@ -794,10 +794,12 @@ a {
 
 	.fancybox-next span {
 		right: 8px!important;
+		top: 220px!important;
 	}
 
 	.fancybox-prev span {
 		left: 8px!important;
+		top: 220px!important;
 	}
 }
 
