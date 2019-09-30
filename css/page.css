@@ -159,9 +159,9 @@ a {
 	height: 375px;
 }
 
-#video-cont img {
+#video-back iframe {
 	width: 100%;
-	height: 100%;
+	height: 400px;
 }
 
 #text_juego {
@@ -627,10 +627,6 @@ a {
 	opacity: 0.8;
 }
 
-.fancybox-next span {
-	right: 0px!important;
-}
-
 @media screen and (max-width: 1130px) {
 	#cover {
 		background-size: 165%;
@@ -673,6 +669,10 @@ a {
 		background-image: url(../images/fondo-movil.png);
 		margin-top: 0px;
 		min-height: 840px;
+	}
+
+	#video-back {
+		width: 90%;
 	}
 
 	#video-cont {
@@ -727,7 +727,6 @@ a {
 	}
 
 	#video-back {
-		width: 100%;
 		padding: 25px 0px 0px 25px;
 	}
 
@@ -765,6 +764,13 @@ a {
 		min-height: 590px;
 	}
 
+	#video-back {
+		padding-left: 0px!important;
+	}
+
+	#video-back iframe {
+		height: 300px;
+	}
 
 	#table-price {
 		width: 90%;
@@ -776,6 +782,22 @@ a {
 
 	.card-mov {
 		display: block;
+	}
+
+	.fancybox-next {
+		right: 0px!important;
+	}
+
+	.fancybox-prev {
+		left: 0px!important;
+	}
+
+	.fancybox-next span {
+		right: 8px!important;
+	}
+
+	.fancybox-prev span {
+		left: 8px!important;
 	}
 }
 

@@ -128,12 +128,12 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: -20px;
 	top: -90px;
 }
 
 .fancybox-next {
-	right: 0;
+	right: -20px;
 	top: -90px;
 }
 
@@ -145,12 +145,11 @@
 	margin-top: -18px;
 	cursor: pointer;
 	z-index: 8040;
-	visibility: hidden;
 }
 
 .fancybox-prev span {
 	left: -30px;
-	top: 50px;
+	top: 300px;
 	background-position: 0 -36px;
 	width: 12px;
 	height: 19px;
@@ -158,7 +157,7 @@
 
 .fancybox-next span {
 	right: -30px;
-	top: 50px;
+	top: 300px;
 	background-position: 0 -72px;
 	width: 12px;
 	height: 19px;
@@ -286,11 +285,11 @@
 		background-image: url('../images/Lightbox/x.png');
 	}
 	.fancybox-prev span {
-		background-image: url('../images/Lightbox/flecha_izq.png');
+		background-image: url('../images/Lightbox/flecha_izq_.png');
 	}
 
 	.fancybox-next span {
-		background-image: url('../images/Lightbox/flecha_der.png');
+		background-image: url('../images/Lightbox/flecha_der_.png');
 	} /* /*The size of the normal image, half the size of the hi-res image*/
 
 	#fancybox-loading div {
