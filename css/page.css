@@ -26,7 +26,7 @@
 	visibility: hidden;
 }
 
-#content-form, #txt-tickets, .card-mov, .topnav, #nota {
+#content-form, #txt-tickets, .card-mov, .topnav, #nota, #time {
 	display: none;
 }
 
@@ -327,13 +327,9 @@ a {
 	margin-top: 200px;
 }
 
-.item-profile:nth-child(2) {
-	margin-right: 0px;
-}
-
 #profile-cont {
 	overflow: auto;
-	width: 350px;
+	width: 700px;
 	height: 240px;
 	margin: 90px auto;
 }
