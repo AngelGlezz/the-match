@@ -309,12 +309,21 @@ a {
 	margin: 70px auto;
 }
 
-#txt-prensa {
+#txt-prensa, #puntos-venta {
 	font-family: 'Condensed', sans-serif;
 	font-size: 30px;
 	letter-spacing: 3px;
 	color: #fff;
 	text-align: center;
+}
+
+#puntos-venta {
+	font-size: 50px;
+	text-transform: uppercase;
+} 
+
+#puntos-venta b {
+	color: #DEA937;
 }
 
 #button-prensa {
@@ -856,6 +865,10 @@ a {
 
 	#nota {
 	    font-size: 17px;
+	}
+
+	#puntos-venta {
+		font-size: 35px;
 	}
 
 	#video-back {
