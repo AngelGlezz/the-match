@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/page.css?v=1.0.0">
+		<link rel="stylesheet" type="text/css" href="css/page.css?v=1.0.1">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -54,7 +54,8 @@
 	<body>
 			<div class="page">
 				<div class="top_bar">
-					<div class="logo_tb"><a href="#cover"><img src="images/icon-logo.png"></a></div>	
+					<div class="logo_tb"><a href="#cover"><img src="images/icon-logo.png"></a></div>
+					<div class="item_main"><a href="section/prensa.html">PRENSA</a></div>	
 					<div class="item_main"><a href="#sponsors">PATROCINADORES</a></div>
 					<div class="item_main"><a href="#perfiles">PERFILES</a></div>
 					<div class="item_main"><a href="#tickets">BOLETOS</a></div>
@@ -63,11 +64,12 @@
 				<div class="topnav">
 					<a href="#home" class="active"><img src="images/icon-logo.png"></a>
 					<!-- Navigation links (hidden by default) -->
-					<div id="myLinks">
+					<div class="myLinks">
 						<a href="#cover">HOME</a>
 						<a href="#tickets">BOLETOS</a>
 						<a href="#perfiles">PERFILES</a>
 						<a href="#sponsors">PATROCINADORES</a>
+						<a href="section/prensa.html">PRENSA</a>
 					</div>
 					<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
 					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -178,7 +180,7 @@
 						<div class="item-sponsor"><img src="images/logo-telcel.png"></div>
 						<div class="item-sponsor"><img src="images/motorola.png"></div>
 						<div class="item-sponsor"><img src="images/Barilla.png"></div>
-						<div class="item-sponsor"><img src="images/pepsi.png"></div>
+						<div class="item-sponsor"><img src="images/gatorade.png"></div>
 						<div class="item-sponsor"><img src="images/maestrodobel.png"></div>
 						<div class="item-sponsor"><img src="images/espn.png"></div>
 						<div class="item-sponsor"><img src="images/azteca.png"></div>
@@ -187,8 +189,8 @@
 						<div class="item-sponsor"><img src="images/radiocentro.png"></div>
 					</div>
 				</div>
-				<div id="footer-page">
-					<div id="content-item-footer">
+				<div class="footer-page">
+					<div class="content-item-footer">
 						<div class="item-footer"><a href="https://twitter.com/mextenis" target="_blank"><img class="img-footer" src="images/twitter.png"></a></div>
 						<div class="item-footer"><a href="https://www.instagram.com/mextenis/" target="_blank"><img class="img-footer" src="images/insta.png"></a></div>
 						<div class="item-footer"><a href="https://www.facebook.com/MextenisOficial/" target="_blank"><img class="img-footer" src="images/face.png"></a></div>
@@ -200,7 +202,7 @@
 		<script>
 		  	/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 			function myFunction() {
-			  var x = document.getElementById("myLinks");
+			  var x = document.getElementByClassName("myLinks");
 			  if (x.style.display === "block") {
 			    x.style.display = "none";
 			  } else {

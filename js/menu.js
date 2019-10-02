@@ -4,13 +4,13 @@ $(document).ready(function(){
 			'border-bottom': '0px'
 		});
 		$('.item_main').find('a').css({
-			'color': '#fff'
+			'color': '#CC911E'
 		});
 		$(this).css({
-			'border-bottom': '1px solid #e9c24e'
+			'border-bottom': '1px solid #CC911E',
 		});
 		$(this).find('a').css({
-			'color': '#e9c24e'
+			'color': '#fff'
 		});
 	});
 
