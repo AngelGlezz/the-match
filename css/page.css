@@ -333,6 +333,15 @@ a {
 	line-height: 35px;
 }
 
+#programa-table {
+	width: 700px;
+	margin: 40px auto;
+}
+
+#programa-table img {
+	width: 100%;
+}
+
 #perfiles {
 	margin-top: 200px;
 }
@@ -702,6 +711,10 @@ a {
 		margin-top: 90px;
 	}
 
+	#programa-table {
+	    width: 480px;
+	}
+
 	.content-item-footer {
 		width: 90%;
 	}
@@ -829,6 +842,10 @@ a {
 
 	#separador {
 		height: 350px;
+	}
+
+	#programa-table {
+	    width: 85%;
 	}
 
 	#myFlipper {
