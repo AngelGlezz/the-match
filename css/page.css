@@ -48,7 +48,7 @@
 }
 
 #cover {
-	background-image: url(../images/fondohome.jpg);
+	background-image: url(../images/fondohome-1.jpg);
 	background-size: auto;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -400,8 +400,13 @@ a {
 	height: 90px;
 }
 
-.item-sponsor:nth-child(6) img {
+.item-sponsor:nth-child(7) img {
 	height: 70px;
+}
+
+#sponsor-title p {
+	margin: 30px auto;
+	color: #DEA937;
 }
 
 .footer-page {
@@ -686,7 +691,7 @@ a {
 
 @media screen and (max-width: 767px) {
 	#cover {
-		background-image: url(../images/fondo-movil.png);
+		background-image: url(../images/fondo-movil-1.png);
 		margin-top: 0px;
 		min-height: 840px;
 	}
@@ -866,6 +871,10 @@ a {
 		float: none;
 	}
 
+	#sponsor-title p {
+		font-size: 39px;
+	}
+
 	.footer-page {
 		height: 25px;
 	}
@@ -925,7 +934,7 @@ a {
 		height: 70px;
 	}
 
-	.item-sponsor:nth-child(6) img {
+	.item-sponsor:nth-child(7) img {
 		height: 60px;
 	}
 }
